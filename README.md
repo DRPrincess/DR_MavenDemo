@@ -15,8 +15,11 @@
 
 共有三个 Module:
 - jcenterlibrary
+
 用来上传的 JCenter 的库项目
 - nexuslibrary
+
 用来上传的 Nexus 私库的库项目
 - app
+
 是用来测试上传到 JCenter 中央仓库的 jcenterlibrary 和 nexuslibrary ；
