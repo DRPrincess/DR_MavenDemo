@@ -1,4 +1,4 @@
-package com.jcenterlibrary;
+package com.nexuslibrary;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -16,7 +16,7 @@ public class HelloWorld {
      */
     public  static void say(Context context){
 
-        String s = "JcenterLibrary:某种意义上，这是我们在编程世界学会的第一句话 ：Hello World ！";
+        String s = "NexusLibrary:某种意义上，这是我们在编程世界学会的第一句话 ：Hello World ！";
         System.out.println(s);
 
         Toast.makeText(context, s, Toast.LENGTH_SHORT).show();

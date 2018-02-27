@@ -29,4 +29,5 @@ dependencies {
     androidTestCompile 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     compile 'com.jcenterlibrary:JCenterDemo:1.0.13'
+    compile 'com.dr:nexuslibrary:1.0.3-SNAPSHOT'
 }

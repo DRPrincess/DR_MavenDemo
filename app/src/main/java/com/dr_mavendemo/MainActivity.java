@@ -28,6 +28,19 @@ public class MainActivity extends AppCompatActivity {
                 HelloWorld.say(MainActivity.this);
             }
         });
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, com.nexuslibrary.MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                com.nexuslibrary.HelloWorld.say(MainActivity.this);
+            }
+        });
 
     }
 }

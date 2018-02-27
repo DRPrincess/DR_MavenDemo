@@ -19,7 +19,12 @@ allprojects {
     repositories {
         google()
         jcenter()
+
+//        //添加个人账户的仓库地址
 //        maven { url 'https://dl.bintray.com/duanruirui/maven' }
+
+        //添加本地仓库地址
+        maven { url 'http://localhost:8081/repository/maven-public/' }
 
     }
 }

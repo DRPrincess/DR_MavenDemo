@@ -25,4 +25,24 @@
         android:layout_marginTop="20dp"
         />
 
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动 NexusLibrary 中的 Activity"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用 NexusLibrary 的Java方法"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="20dp"
+        />
+
+
 </RelativeLayout>
